@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.select {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 120px;
+  height: 59px;
+  margin-top: 41px;
+}
+
+.select_code {
+  border: none;
+  width: 100px;
+  height: 30px;
+  outline: none;
+  font-size: 20px;
+}
+
+.select_input {
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 220px;
+  height: 50px;
+  margin-top: 50px;
+  padding: 5.6px 12px 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper {
+  margin-top: 10%;
+  margin-left: 40%;
+}
+
+.error {
+  color: red;
+  padding: 0;
+  margin: 5px;
+}
